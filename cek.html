@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cek Kelulusan - MTSS Mursyidul Falah</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pengumuman Kelulusan Siswa</h1>
+  </header>
+  <main>
+    <p>Pengumuman dapat diakses mulai: <strong>17 Mei 2025, Pukul 09:00 WIB</strong></p>
+    <input type="text" id="nisnInput" placeholder="Masukkan NISN">
+    <button onclick="cariSiswa()">Cari</button>
+
+    <div id="hasil" style="display: none; margin-top: 20px;">
+      <img id="fotoSiswa" src="" alt="Foto Siswa" width="150" />
+      <p><strong>Nama:</strong> <span id="namaSiswa"></span></p>
+      <p><strong>Kelas:</strong> <span id="kelasSiswa"></span></p>
+      <p><strong>Status:</strong> <span id="statusKelulusan"></span></p>
+    </div>
+  </main>
+  <footer>© 2025 MTSS Mursyidul Falah. Hak Cipta Dilindungi.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
